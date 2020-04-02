@@ -3,64 +3,11 @@
 Bot Framework v4 core bot sample.
 
 This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to:
-
-- Use [LUIS](https://www.luis.ai) to implement core AI capabilities
-- Implement a multi-turn conversation using Dialogs
-- Handle user interruptions for such things as `Help` or `Cancel`
-- Prompt for and validate requests for information from the user
-
-## Prerequisites
-
-This sample **requires** prerequisites in order to run.
-
-### Overview
-
-This bot uses [LUIS](https://www.luis.ai), an AI based cognitive service, to implement language understanding.
-
-### Install .NET Core CLI
-
-- [.NET Core SDK](https://dotnet.microsoft.com/download) version 2.1
-
-  ```bash
-  # determine dotnet version
-  dotnet --version
-  ```
-
-### Create a LUIS Application to enable language understanding
-
-The LUIS model for this example can be found under `CognitiveModels/FlightBooking.json` and the LUIS language model setup, training, and application configuration steps can be found [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&tabs=cs).
-
-Once you created the LUIS model, update `appsettings.json` with your `LuisAppId`, `LuisAPIKey` and `LuisAPIHostName`.
-
-```json
-  "LuisAppId": "Your LUIS App Id",
-  "LuisAPIKey": "Your LUIS Subscription key here",
-  "LuisAPIHostName": "Your LUIS App region here (i.e: westus.api.cognitive.microsoft.com)"
-```
-
-## To try this sample
-
-- Clone the repository
-
-    ```bash
-    git clone https://github.com/microsoft/botbuilder-samples.git
-    ```
-
-- In a terminal, navigate to `samples/csharp_dotnetcore/13.core-bot`
-- Run the bot from a terminal or from Visual Studio, choose option A or B.
-
-  A) From a terminal
-
-  ```bash
-  # run the bot
-  dotnet run
-  ```
-
-  B) Or from Visual Studio
+from Visual Studio
 
   - Launch Visual Studio
   - File -> Open -> Project/Solution
-  - Navigate to `samples/csharp_dotnetcore/13.core-bot` folder
+  - Navigate to `ChatBotV4` folder
   - Select `CoreBot.csproj` file
   - Press `F5` to run the project
 
